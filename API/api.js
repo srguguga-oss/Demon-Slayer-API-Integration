@@ -30,5 +30,10 @@ procura.addEventListener("click", () => {
                 slayerId.innerText = "";
                 aviso.innerText = `Personagem ou ID errado! (Digite ID de 1 a 5!)`;
             }
-        });
+        })
+
+        .catch((erro) => {
+            aviso.innerText = "Erro ao buscar os dados da API!";
+    });
+
 });
