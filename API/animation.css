@@ -1,0 +1,15 @@
+.demonSlayer:hover {
+    transform: scale(1.05);
+}
+
+.btnSearch:hover {
+    transform: scale(1.05);
+}
+
+.btnProcura {
+    transition: transform 0.15s;
+}
+
+.btnProcura:active {
+    transform: scale(0.92);
+}

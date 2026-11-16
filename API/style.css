@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.body {
+    background-color: rgba(200, 192, 192, 0.906);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.btnSearch {
+   padding: 20px;
+   width: 250px;
+   border: none;
+   border-radius: 10px;
+   transition: transform 0.1s ease;
+}
+
+.btnProcura {
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.boxSearch {
+    background-color:rgb(41, 134, 67);
+    padding: 20px;
+    width: 750px;
+    height: 550px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.demonSlayer {
+    position: absolute;
+    width: 370px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.slayerName {
+    position: absolute;
+    margin-left: 450px;
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+.slayerAge {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+.slayerGender {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+.slayerRace {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 150px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+.slayerId {
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 500px;
+    font-size: 25px;
+    font-family: 'Permanent Marker', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.aviso {
+    color: red;
+    font-weight: bold;
+}
